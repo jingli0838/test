@@ -7,6 +7,7 @@ const baseUrl = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos
 const myApiKey = config.NASA_API_KEY;
 
 const dateNode = document.getElementById("earthDate");
+
 const containerNode = document.getElementById("marsPhotosContainer");
 
 
