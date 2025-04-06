@@ -22,7 +22,9 @@ async function fetchPhotos(date){
         // if response is good, use the JSON method to parse the response body
         const marsPhotosData = await response.json();
         console.log(marsPhotosData);
+        
         // select the first 3 photos to make destructuring
+        
         const photos = marsPhotosData.photos.slice(0,3).map((photo) => {
             const {camera:{full_name},
             sol, img_src} = photo;
